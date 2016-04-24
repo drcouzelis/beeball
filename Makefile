@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -g -O2 -Wall -ansi -pedantic -c
 LDFLAGS = -lallegro -lallegro_acodec -lallegro_audio -lallegro_font -lallegro_image -lallegro_ttf -lm
 
-HEADERS = anim.h input.h memory.h physics.h random.h resource.h
+HEADERS = anim.h input.h memory.h physics.h random.h resource.h utilities.h
 
 OBJECTS = anim.o beeball.o input.o memory.o physics.o random.o resource.o
 

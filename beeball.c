@@ -2454,7 +2454,7 @@ int main(int argc, char **argv)
     }
     
     /* TEMP */
-    scale = 1;
+    scale = 2;
     
     screen_w = scale * CANVAS_W;
     screen_h = scale * CANVAS_H;
